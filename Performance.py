@@ -11,7 +11,7 @@ def performance(fn):
         return result
     return wrap_func
 
-#calling the decorator on any function
+#calling the decorator on any function.
 @performance
 def function():
     for x in range(1000000):
